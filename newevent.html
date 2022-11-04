@@ -14,12 +14,14 @@
     <body>
         <form> 
             <fieldset>
-              </td><td><input type="text"placeholder="Event title" name="title"></tr></td>
-              <tr><td> </td><td><input type="text" placeholder="Location" name="location"></tr></td>
-              <tr><td></td><td><input type="text" name="dresscode" placeholder="Dress code" ></tr></td>
+              </td><td><input type="text"placeholder="Event title" name="title" required></tr></td>
+              <tr><td> </td><td><input type="text" placeholder="Location" name="location" required></tr></td>
+              <tr><td></td><td><input type="date" name="datepicker"></tr></td>
+              <tr><td></td><td><input type="color" placeholder="themepicker" name="themepicker"></tr></td>
+              <tr><td></td><td><input type="text" name="dresscode" placeholder="Dress code" required></tr></td>
               <tr><td></td><td><input type="text" placeholder="Special instructions" name="specialinstructions"></tr></td>
-              <tr><td></td><td><input type="text" name="guestlist" id="guestlist" placeholder="Guest List">
-              </tr></td> <submit class="neweventbutton">Create Event></td></tr>
+              <tr><td></td><td><input type="text" name="guestlist" id="guestlist" placeholder="Guest List" required>
+              </tr></td> <input type ="submit" onclick ="sendemail.html"class="neweventbutton"></td></tr>
               </table>
             </form>
 
